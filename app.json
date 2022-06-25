@@ -54,6 +54,10 @@
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
         "required": true
       },
+      "MONGO_DB_URL": {
+        "description": "Mongo db url get it from mongodb.com",
+        "required": true
+      },
       "UPSTREAM_REPO": {
         "description": "Upstream repo for /update command, don't change.",
         "required": true,
