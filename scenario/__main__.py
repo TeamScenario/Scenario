@@ -160,8 +160,8 @@ buttons = [
                     
 HELP_STRINGS = """
 *Main* commands available:
- ➛ /help: PM's you this message.
- ➛ /help <module name>: PM's you info about that module.
+ ➛ /help: bot will pm you this message.
+ ➛ /help <module name>: pm you info about that module.
  ➛ /donate: information on how to donate!
  ➛ /settings:
    ❂ in PM: will send you your settings for all supported modules.
@@ -714,11 +714,11 @@ def donate(update: Update, context: CallbackContext):
             )
 
             update.effective_message.reply_text(
-                "I've PM'ed you about donating to my creator!"
+                "I've pm you about donating to my creator!"
             )
         except Unauthorized:
             update.effective_message.reply_text(
-                "Contact me in PM first to get donation information."
+                "Contact me in pm first to get donation information."
             )
 
 
