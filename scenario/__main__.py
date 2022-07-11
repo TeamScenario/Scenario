@@ -793,9 +793,9 @@ def main():
 
 try:
     ubot.start()
-except BaseException:
-    print("Userbot Error! Have you added a STRING_SESSION in deploying??")
-    sys.exit(1)
+except Exception as e:
+    print("STRING_SESSION Not Found \nSome modules will not work.")
+    
 
 if __name__ == '__main__':
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
