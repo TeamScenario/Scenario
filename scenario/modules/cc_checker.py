@@ -26,7 +26,7 @@ async def alive(event):
         return
     sender = await event.get_sender()
     fname = sender.first_name
-    m = await event.reply("Generating CC...Pls Weit.")
+    m = await event.reply("Generating CC...Pls Wait.")
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@ccgen_robot") as bot_conv:
         await bot_conv.send_message("/generate")
