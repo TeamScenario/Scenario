@@ -5,7 +5,7 @@ from . import BASE, SESSION
 
 
 class KukiChats(BASE):
-    __tablename__ = "kuki_chats"
+    __tablename__ = "chat_bot_cb"
     chat_id = Column(String(14), primary_key=True)
 
     def __init__(self, chat_id):
