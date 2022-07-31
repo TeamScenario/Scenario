@@ -37,5 +37,17 @@ __help__ = """
 
 ## Advanced: PTB
 ```
-PTB 13.7 Comming Soon
+from scenario import dispatcher
+from telegram import Update, ParseMode
+from telegram.ext import CallbackContext, CommandHandler
+
+def adv(update: Update, context: CallbackContext):
+    m = update.effective_message
+    text="*Hello world*"
+    m.reply_text(text, parse_mode=ParseMode.MARKDOWN)
+
+dispatcher.add_handler(CommandHandler("ok", adv, run_async=True))
+
+# Command = ok
+
 ```
