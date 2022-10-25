@@ -72,8 +72,8 @@ If android then execute this cd command ```cd /storage/emulated/0/scenario``` el
  
 ## <img height="40" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>Contact us
 
-[![Group](https://img.shields.io/badge/dynamic/json?logo=telegram&label=%40ScenarioXsupport&labelColor=282c34&suffix=+members&color=2CA5E0&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3DThe_Arc_Music&longCache=true%22)](https://t.me/ScenarioXsupport)
-[![Group](https://img.shields.io/badge/dynamic/json?logo=telegram&label=%40TeamScenario&labelColor=282c34&suffix=+members&color=2CA5E0&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3DThe_Arc_Music&longCache=true%22)](https://t.me/TeamScenario)
+[![Group](https://img.shields.io/badge/dynamic/json?logo=telegram&label=%40ScenarioSupport&labelColor=282c34&suffix=+members&color=2CA5E0&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3DThe_Arc_Music&longCache=true%22)](https://t.me/ScenarioXsupport)
+[![Channel](https://img.shields.io/badge/dynamic/json?logo=telegram&label=%40TeamScenario&labelColor=282c34&suffix=+members&color=2CA5E0&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3DThe_Arc_Music&longCache=true%22)](https://t.me/TeamScenario)
 </details>
   
 
