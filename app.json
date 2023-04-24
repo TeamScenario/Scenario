@@ -187,8 +187,8 @@
       },
       "STRING_SESSION": {
          "description": "Telethon string session use @StarkStringGenBot and Never share your session.",
-         "required": true,
-         "value": ""
+         "required": false,
+         "value": "Leave empty if you don't know how to create"
       },
       "YOUTUBE_API_KEY": {
          "description": "YT api",
