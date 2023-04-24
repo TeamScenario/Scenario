@@ -35,6 +35,7 @@ from scenario import (
     updater,
     pgram,
     ubot,
+    STRING_SESSION
     )
 
 # needed to dynamically load modules
@@ -799,7 +800,10 @@ except Exception as e:
 
 if __name__ == '__main__':
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
-    telethn.start(bot_token=TOKEN)
+    if STRING_SESSION != '':
+        telethn.start(bot_token=TOKEN)
+    else:
+        print('No STRING_SESSION found some functions may not work')
     pgram.start()
     main()
     idle()
