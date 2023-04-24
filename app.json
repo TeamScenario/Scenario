@@ -58,6 +58,10 @@
         "description": "Mongo db url get it from mongodb.com",
         "required": true
       },
+      "REDIS_URL": {
+        "description": "Redis db url get it from: redis.com",
+        "required": true
+      },
       "UPSTREAM_REPO": {
         "description": "Upstream repo for /update command, don't change.",
         "required": true,
